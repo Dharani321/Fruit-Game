@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(157, 132, 234);
+    height:100%;
+    width:100%;
+}
+.container{
+    height:700px;
+    width:90%;
+    background-color: rgb(217, 244, 191);
+    margin:10% auto;
+    border:2px solid red;
+    box-shadow:2px 2px rgb(104, 62, 62);
+}
+.rotate{
+    background-color: brown;
+    height:90px;
+    width:90px;
+    border-radius: 50%;
+    margin:350px auto;
+    position: relative;
+    /* animation:ani 6s linear infinite; */
+    z-index: 2222;
+}
+/* .ani{
+    transform:none;
+    animation:ro 1s infinite linear;
+} */
+@keyframes ro{
+    100%{
+        transform: rotate(0deg);
+        /* position: unset; */;
+    }
+}
+.t{
+    height:30px;
+    width: 30px;
+    background-color: red;
+    position: absolute;
+    left:0%;
+    background: url("apple.jpeg");
+    height:30px;
+    width: 30px;
+    background-size: 100%;
+}
+
+.pi{
+    height:20px;
+    width: 20px;
+    /* background-color: red; */
+    position: absolute;
+    left:0%;
+    background: url("0f6eed1c95d60a6156d6494d8bcf0fb8.jpg");
+    height:30px;
+    width: 30px;
+    background-size: 100%;
+}
+
+.Ma{
+    height:20px;
+    width: 20px;
+    /* background-color: red; */
+    position: absolute;
+    left:0%;
+    background: url("Mango-PNG-Pic.png");
+    height:30px;
+    width: 30px;
+    background-size: 100%;
+}
+.or{
+    height:20px;
+    width: 20px;
+    /* background-color: red; */
+    position: absolute;
+    left:0%;
+    background: url("87837916_Orange -17.jpg");
+    height:30px;
+    width: 30px;
+    background-size: 100%;
+}
+.score{
+    height:40px;
+    width: 40px;
+    background-color: rgb(12, 9, 9);
+    color:white;
+}
+.b{
+    height:20px;
+    width: 20px;
+    /* background-color: red; */
+    position: absolute;
+    left:0%;
+    background: url("banana-transparent-png-20.jpg");
+    height:30px;
+    width: 30px;
+    background-size: 100%;
+}
+.f{
+    height: 40px;
+    width: 40px;
+    background-image: url("apple.jpeg");
+    background-size: 100%;
+    z-index: 3333;
+    border-radius: 12rem;
+}    
+@keyframes ani{
+    0%{
+        transform: rotate(0deg);   
+    }
+    50%{
+        transform: rotate(180deg);   
+    }
+    100%{
+        transform: rotate(360deg);   
+    }
+}
+.kn{
+    background: url("knife1.jpg");
+    height:30px;
+    width: 30px;
+    background-size:150%;
+    color:black;
+     background-color:transparent; 
+    position: absolute;
+    left:0px;
+    top:0px;
+    /* margin-left:20px; */
+    border:1px solid black;
+    /* transform:rotate(90deg);  */
+}
+
+/* ,.knife2,.knofe3,.knife4 */
+
+/* .rotate .knife1{
+    background: url("knife1.jpg");
+    height:30px;
+    width: 30px;
+    background-size:150%;
+    color:black;
+     background-color:transparent; 
+    position: absolute;
+    left:0px;
+    top:0px;
+    /* margin-left:20px; 
+    border:1px solid black;
+    transform:rotate(90deg); 
+} */
+p{
+    background-color: brown;
+    color:white;
+    width:30px;
+    height:30px;
+}
+/* .rotate .knife2{
+    background: url("apple.jpeg");
+    height:20px;
+    width: 20px;
+    background-size: 100%;
+    color:black;
+     background-color:transparent; 
+    /* transform: skewY(-90deg); 
+    position: absolute;
+    left:60px;
+    bottom:0px;
+    z-index: 1111;
+} */
+.rg{
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(195, 195, 36); */
+    
+}
+
+.rf{
+    height: 600px;
+    width:90%;
+    /* background-image: url("apple.jpeg");
+    background-size:100%; */
+    margin:0px;
+    background-color: rgb(196, 216, 216);
+    position: absolute;
+    top: 0px;
+    
+    /* position: absolute; */
+}
